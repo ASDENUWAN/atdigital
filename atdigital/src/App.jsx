@@ -1,9 +1,20 @@
+import "./App.css";
+
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="container">
-      <h1 className="text-center mt-5">Landing Page Assignment</h1>
-      <p className="text-center">Start building your layout here...</p>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Services />
+      <FAQ />
+      <Footer />
+    </>
   );
 }
 
